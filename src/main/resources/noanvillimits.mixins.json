@@ -4,8 +4,10 @@
   "package": "com.thaddev.noanvillimits.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "AnvilScreenHandlerMixin"
   ],
   "client": [
+    "AnvilScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
