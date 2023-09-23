@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "noanvillimits",
+  "version": "${version}",
+
+  "name": "NoAnvilLimits",
+  "description": "Gets rid of the annoying 50 character limit on item names in the Anvil.",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/noanvillimits/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+      "mixins": [
+        "noanvillimits.mixins.json"
+      ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
